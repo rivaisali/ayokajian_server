@@ -1,0 +1,43 @@
+curl --digest -u "suhanlee:game1234" -X POST --header 'Accept:application/json; charset=utf-8' --header 'Content-type:application/json; charset=utf-8' http://localhost:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive -d'
+{
+   "restURI": "http://localhost:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive",
+   "name": "testlive",
+   "appType": "Live",
+   "clientStreamReadAccess": "*",
+   "clientStreamWriteAccess": "*",
+   "description": "Testing our Rest Service",
+   "streamConfig": {
+      "restURI": "http://localhost:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive/streamconfiguration",
+      "streamType": "live"
+   }
+}'
+
+curl --digest -u "suhanlee:game1234" "-X PUT --header 'Accept:application/json; charset=utf-8' --header 'Content-type:application/json; charset=utf-8' http://localhost:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive -d'
+{
+  "restURI": "http://localhost:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive",
+  "name":"testlive",
+   "streamConfig": {
+      "restURI": "http://localhost:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive/streamconfiguration",
+      "streamType": "live",
+      "liveStreamPacketizer": [
+         "cupertinostreamingpacketizer",
+         "smoothstreamingpacketizer",
+         "sanjosestreamingpacketizer",
+         "mpegdashstreamingpacketizer"
+      ]
+   }
+}'
+
+curl --digest -u "wowza:i-827fbd24" -X POST --header 'Accept:application/json; charset=utf-8' --header 'Content-type:application/json; charset=utf-8' http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive -d'
+{
+   "restURI": "http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive",
+   "name": "testlive",
+   "appType": "Live",
+   "clientStreamReadAccess": "*",
+   "clientStreamWriteAccess": "*",
+   "description": "Testing our Rest Service",
+   "streamConfig": {
+      "restURI": "http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive/streamconfiguration",
+      "streamType": "live"
+   }
+}'
