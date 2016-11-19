@@ -17,11 +17,11 @@ module LIVE_SERVER
       @password = data.password
 
       @api_server_url = "http://#{@host}:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/"
-      @live_server_url = "rtmp://#{@host}:1935/"
+      @live_server_url = "rtsp://#{@host}:1935/"
     end
 
     def make_live_url(applicaiton_name)
-      live_server_url + applicaiton_name
+      live_server_url + applicaiton_name +"/myStream"
     end
 
     def create_application(application_name)

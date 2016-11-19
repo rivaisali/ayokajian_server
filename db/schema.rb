@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161119082749) do
+ActiveRecord::Schema.define(version: 20161119190309) do
 
   create_table "rooms", force: :cascade do |t|
     t.string   "stream_url"
     t.string   "room_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "app_name"
   end
 
 end

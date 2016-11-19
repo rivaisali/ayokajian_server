@@ -25,8 +25,10 @@ class AndroidLiveController < AndroidAbstractController
       raise Exceptions::CannotCreateRoom
     end
 
+    # code == "409" duplicate app_name
+
     live_url = live_server.make_live_url(new_application_name)
 
-    @room = Room.create(stream_url: live_url, room_name: room_name)
+    @room = Room.create(stream_url: live_url, room_name: room_name, app_name: new_application_name)
   end
 end
