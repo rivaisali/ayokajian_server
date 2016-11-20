@@ -10,7 +10,7 @@ class AndroidLiveController < AndroidAbstractController
     end
 
     @room = Room.create(room_name: room_name)
-    live_server = LIVE_SERVER::LiveServer.new(@room.id)
+    live_server = ::LIVE_SERVER::LiveServer.new(@room.id)
     res = live_server.create_application
     if !res.code.eql? 201
       raise Exceptions::CannotCreateRoom
@@ -31,7 +31,7 @@ class AndroidLiveController < AndroidAbstractController
 
     app_name = movie.app_name
     unless app_name.nil?
-      live_server = LIVE_SERVER::LiveServer.new(app_name)
+      live_server = ::LIVE_SERVER::LiveServer.new(app_name)
       res = live_server.delete_application
       if !res.code.eql? 200
         raise Exceptions::CannotDeleteApplication
