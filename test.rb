@@ -1,4 +1,4 @@
-# curl --digest -u "wowza:i-827fbd24" -X POST --header 'Accept:application/json; charset=utf-8' --header 'Content-type:application/json; charset=utf-8' http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive -d'
+# curl --digest -u "wowza:i-827fbd24" -X DELETE --header 'Accept:application/json; charset=utf-8' --header 'Content-type:application/json; charset=utf-8' http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive -d'
 # {
 #    "restURI": "http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/testlive",
 #    "name": "testlive",

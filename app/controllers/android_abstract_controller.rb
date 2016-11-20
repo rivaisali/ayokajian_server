@@ -29,6 +29,10 @@ class AndroidAbstractController < ApplicationController
     render json: { error_message: 'cannot create room. retry again' }, status: 413
   end
 
+  rescue_from Exceptions::CannotDeleteApplication do
+    render json: { error_message: 'cannot delete room. retry again' }, status: 413
+  end
+
   def set_content_type
     self.content_type = 'application/json'
   end

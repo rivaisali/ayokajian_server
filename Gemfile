@@ -60,5 +60,6 @@ ruby '2.3.0'
 
 gem 'rails_12factor', group: :production
 
-gem 'rest-client'
-gem 'net-http-digest_auth'
+# gem 'rest-client'
+# gem 'net-http-digest_auth'
+gem 'httparty'

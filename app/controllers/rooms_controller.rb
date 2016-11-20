@@ -28,6 +28,10 @@ class RoomsController < ApplicationController
 
     respond_to do |format|
       if @room.save
+
+        live_server = LIVE_SERVER::LiveServer.new(@room.id)
+        res = live_server.create_application
+
         format.html { redirect_to @room, notice: 'Room was successfully created.' }
         format.json { render :show, status: :created, location: @room }
       else
@@ -54,6 +58,11 @@ class RoomsController < ApplicationController
   # DELETE /rooms/1
   # DELETE /rooms/1.json
   def destroy
+    app_name = @room.app_name
+
+    live_server = LIVE_SERVER::LiveServer.new(app_name)
+    res = live_server.delete_application
+
     @room.destroy
     respond_to do |format|
       format.html { redirect_to rooms_url, notice: 'Room was successfully destroyed.' }
