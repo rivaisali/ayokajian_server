@@ -3,10 +3,14 @@ DEV_LIVE_SERVER_USER: 'suhanlee'
 DEV_LIVE_SERVER_PASSWORD: 'game1234'
 
 
-LIVE_SERVER_URL: '192.168.0.6'
-LIVE_SERVER_USER: 'suhanlee'
-LIVE_SERVER_PASSWORD: 'game1234'
+#LIVE_SERVER_URL: '192.168.0.6'
+#LIVE_SERVER_USER: 'suhanlee'
+#LIVE_SERVER_PASSWORD: 'game1234'
 
+
+LIVE_SERVER_URL: 'ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
+LIVE_SERVER_USER: 'wowza'
+LIVE_SERVER_PASSWORD: 'i-827fbd24'
 
 PRD_LIVE_SERVER_URL: 'ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
 PRD_LIVE_SERVER_USER: 'wowza'
