@@ -1,6 +1,6 @@
 class AndroidLiveController < AndroidAbstractController
 
-  PRD_SERVER_HOST_ADDRESS = 'http://ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
+  PRD_SERVER_HOST_ADDRESS = 'http://54.254.203.210'
   DEV_SERVER_HOST_ADDRESS = 'http://localhost'
 
   def create
