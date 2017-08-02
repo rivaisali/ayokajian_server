@@ -1,6 +1,6 @@
 class AndroidLiveController < AndroidAbstractController
 
-  PRD_SERVER_HOST_ADDRESS = 'https://af783c.entrypoint.cloud.wowza.com/app-4efa'
+  PRD_SERVER_HOST_ADDRESS = 'https://af783c.entrypoint.cloud.wowza.com'
   DEV_SERVER_HOST_ADDRESS = 'http://localhost'
 
   def create
