@@ -8,18 +8,11 @@ DEV_LIVE_SERVER_PASSWORD: 'game1234'
 #LIVE_SERVER_PASSWORD: 'game1234'
 
 
-#LIVE_SERVER_URL: 'ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
-#LIVE_SERVER_USER: 'wowza'
-#LIVE_SERVER_PASSWORD: 'i-827fbd24'
+LIVE_SERVER_URL: 'ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
+LIVE_SERVER_USER: 'wowza'
+LIVE_SERVER_PASSWORD: 'i-827fbd24'
 
-#PRD_LIVE_SERVER_URL: 'ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
-#PRD_LIVE_SERVER_USER: 'wowza'
-#PRD_LIVE_SERVER_PASSWORD: 'i-827fbd24'
+PRD_LIVE_SERVER_URL: 'ec2-52-78-228-123.ap-northeast-2.compute.amazonaws.com'
+PRD_LIVE_SERVER_USER: 'wowza'
+PRD_LIVE_SERVER_PASSWORD: 'i-827fbd24'
 
-LIVE_SERVER_URL: 'api.cloud.wowza.com/api/v1/live_streams'
-LIVE_SERVER_USER: 'client23984'
-LIVE_SERVER_PASSWORD: '6bd872cc'
-
-PRD_LIVE_SERVER_URL: 'api.cloud.wowza.com/api/v1/live_streams'
-PRD_LIVE_SERVER_USER: 'client23984'
-PRD_LIVE_SERVER_PASSWORD: '6bd872cc'
