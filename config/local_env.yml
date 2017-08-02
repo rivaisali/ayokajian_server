@@ -16,10 +16,10 @@ DEV_LIVE_SERVER_PASSWORD: 'game1234'
 #PRD_LIVE_SERVER_USER: 'wowza'
 #PRD_LIVE_SERVER_PASSWORD: 'i-827fbd24'
 
-LIVE_SERVER_URL: 'https://af783c.entrypoint.cloud.wowza.com/app-4efa'
+LIVE_SERVER_URL: 'af783c.entrypoint.cloud.wowza.com'
 LIVE_SERVER_USER: 'client23984'
 LIVE_SERVER_PASSWORD: '6bd872cc'
 
-PRD_LIVE_SERVER_URL: 'https://af783c.entrypoint.cloud.wowza.com/app-4efa'
+PRD_LIVE_SERVER_URL: 'af783c.entrypoint.cloud.wowza.com'
 PRD_LIVE_SERVER_USER: 'client23984'
 PRD_LIVE_SERVER_PASSWORD: '6bd872cc'
