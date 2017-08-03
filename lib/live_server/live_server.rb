@@ -18,7 +18,7 @@ module LIVE_SERVER
       @user = data.user
       @password = data.password
 
-      @api_server_url = "#{@host}:8088/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/"
+      @api_server_url = "#{@host}:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/"
       @live_server_url = "rtsp://#{@host}:1935/"
 
       LiveServer.base_uri @api_server_url
