@@ -12,7 +12,7 @@ LIVE_SERVER_URL: 'http://ayokajian.ddns.net'
 LIVE_SERVER_USER: 'rivai.sali'
 LIVE_SERVER_PASSWORD: 'SEtan2013'
 
-PRD_LIVE_SERVER_URL: 'http://ayokajian.ddns.net'
+PRD_LIVE_SERVER_URL: 'ayokajian.ddns.net'
 PRD_LIVE_SERVER_USER: 'rivai.sali'
 PRD_LIVE_SERVER_PASSWORD: 'SEtan2013'
 
