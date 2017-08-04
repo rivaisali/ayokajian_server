@@ -8,7 +8,7 @@ DEV_LIVE_SERVER_PASSWORD: 'game1234'
 #LIVE_SERVER_PASSWORD: 'game1234'
 
 
-LIVE_SERVER_URL: 'http://ayokajian.ddns.net'
+LIVE_SERVER_URL: 'ayokajian.ddns.net'
 LIVE_SERVER_USER: 'rivai.sali'
 LIVE_SERVER_PASSWORD: 'SEtan2013'
 
