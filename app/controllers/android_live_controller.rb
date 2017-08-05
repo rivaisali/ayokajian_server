@@ -1,7 +1,7 @@
 class AndroidLiveController < AndroidAbstractController
 
-  PRD_SERVER_HOST_ADDRESS = 'http://ayokajian.ddns.net'
-  DEV_SERVER_HOST_ADDRESS = 'http://ayokajian.ddns.net'
+  PRD_SERVER_HOST_ADDRESS = 'http://ec2-13-228-71-31.ap-southeast-1.compute.amazonaws.com'
+  DEV_SERVER_HOST_ADDRESS = 'http://ec2-13-228-71-31.ap-southeast-1.compute.amazonaws.com'
 
   def create
     room_name = params[:room_name]
