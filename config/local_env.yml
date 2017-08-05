@@ -1,18 +1,8 @@
-DEV_LIVE_SERVER_URL: 'localhost'
-DEV_LIVE_SERVER_USER: 'suhanlee'
-DEV_LIVE_SERVER_PASSWORD: 'game1234'
-
-
-#LIVE_SERVER_URL: '192.168.0.6'
-#LIVE_SERVER_USER: 'suhanlee'
-#LIVE_SERVER_PASSWORD: 'game1234'
-
-
-LIVE_SERVER_URL: 'ayokajian.ddns.net'
+LIVE_SERVER_URL: 'ec2-13-228-71-31.ap-southeast-1.compute.amazonaws.com'
 LIVE_SERVER_USER: 'rivai.sali'
 LIVE_SERVER_PASSWORD: 'SEtan2013'
 
-PRD_LIVE_SERVER_URL: 'ayokajian.ddns.net'
+PRD_LIVE_SERVER_URL: 'ec2-13-228-71-31.ap-southeast-1.compute.amazonaws.com'
 PRD_LIVE_SERVER_USER: 'rivai.sali'
 PRD_LIVE_SERVER_PASSWORD: 'SEtan2013'
 
